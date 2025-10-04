@@ -478,6 +478,7 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
 }
 .subscribe-form {
   display: flex;
@@ -493,12 +494,15 @@ section {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   padding-left: 16px;
   outline: none;
-  background-color: transparent;
+  background-color: #4D5AE5
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
   color: #fff;
   transition: border-color 250ms linear;
+  min-width: 165px;
+  cursor: pointer;
+  border: none;
 }
 .subscribe-input:focus {
   border-color: #404bbf;
@@ -531,6 +535,7 @@ section {
   background-color: #404bbf;
 }
 .subscribe-icon {
+   margin-left: 16px;
 }
 /* ====MODAL==== */
 
