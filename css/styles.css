@@ -611,7 +611,6 @@ section {
   color: #2e2f42;
   max-width: 360px;
   margin-bottom: 16px;
-  margin-top: 72px;
 }
 
 .modal-label {
@@ -630,7 +629,6 @@ section {
   width: 360px;
   height: 40px;
   padding-left: 62px;
-  margin-top: 4px;
   background-color: transparent;
   padding-left: 38px;
   outline: transparent;
@@ -640,9 +638,10 @@ section {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-div {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal-textarea {
+  display: block;
   width: 100%;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -742,7 +741,6 @@ section {
 }
 .input-wrapper {
   position: relative;
-  margin-bottom: 8px;
 }
 .modal-input:focus + .modal-icon {
   fill: #4d5ae5;
@@ -761,4 +759,7 @@ section {
 }
 .checkbox-wrapper {
   margin-bottom: 24px;
+}
+.input-div.input-textarea {
+  margin-bottom: 16px;
 }
