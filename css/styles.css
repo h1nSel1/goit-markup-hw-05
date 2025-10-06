@@ -716,7 +716,7 @@ section {
   transform: translateY(-50%);
 }
 .checkbox-label {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 8px;
